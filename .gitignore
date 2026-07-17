@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build output
+dist/
+build/
+*.min.js
+*.min.css
+
+# Mimocode internal (keep AGENTS.md + workflows, exclude runtime)
+.mimocode/node_modules/
+.mimocode/settings.local.json
+
+# Snapshots (large backups, not for git)
+snapshots/
+
+# Logs
+*.log
+logs/
+
+# PHP
+vendor/
+composer.lock
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Docker volumes (local dev data)
+docker-data/
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# Windows reserved device names (accidental artifacts)
+NUL
+CON
+PRN
+AUX
+COM[1-9]
+LPT[1-9]
